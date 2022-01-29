@@ -1,12 +1,11 @@
 # fcitx5-dracula-theme
 
 
-----
-## Noramal
+## 正常模式 
 ![](./shot/normal_shot1.png)  
 ![](./shot/normal_shot2.png)  
 
-## Transparent
+## 透明模式
 ![](./shot/trans_shot1.png)  
 ![](./shot/trans_shot2.png)  
 
@@ -20,7 +19,7 @@ git clone https://github.com/drbbr/fcitx5-dracula-theme.git ~/.local/share/fcitx
 ```
 
 修改配置文件：  
-` vim ~/.config/fcitx5/conf/classicui.conf `
+` vim ~/.config/fcitx5/conf/classicui.conf `  
 添加以下参数：  
 
 ```
@@ -35,5 +34,12 @@ Font="思源黑体 CN Medium 13"
 
 # 主题
 Theme=dracula
+```
+需要切换模式可以在 theme.conf 中编辑
 
+```
+# 透明选择 peneltrans.png 
+# 不透明选择panel.png
+[InputPanel/Background]
+Image=paneltrans.png
 ```
